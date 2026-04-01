@@ -223,7 +223,84 @@ footer a:hover {
     transform: translate(-3px);
 }
 
+.rang1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.projets h2{
+    margin-top: 60px;
+}
 
+.projets h2::after{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: var(--violet-doux);
+    margin: 1.2rem auto;
+    border-radius: 2px;  
+}
 
+.pro1{
+    padding: 0;
+    height: 480px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.342);
+    margin: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+}
 
+.c{
+    width: 100%;
+    height: 45%;
+    object-fit: cover;
+}
+
+.b{
+    padding: 20px;
+}
+
+.b h3{
+    color: var(--violet-fonce);
+    margin-bottom: 10px;
+}
+
+.b p{
+    color: var(--gris-fonce);
+}
+
+.d{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    
+}
+
+.d p{
+    font-size: 13px;
+    color: var(--violet-fonce);
+    font-weight: bold;
+    border: 1px solid var(--gris-fonce);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 40px;
+}
+
+#hr{
+    margin-top: 25px;
+}
+
+.e{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.e p{
+    font-weight: bold;
+}
